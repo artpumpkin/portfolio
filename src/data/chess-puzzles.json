@@ -1,0 +1,285 @@
+[
+  {
+    "id": "corner",
+    "mate": 1,
+    "fen": "6k1/8/6KQ/8/8/8/8/8 w - - 0 1",
+    "moves": [
+      {
+        "from": "h6",
+        "to": "g7"
+      }
+    ]
+  },
+  {
+    "id": "coordination",
+    "mate": 2,
+    "fen": "7k/8/5K2/8/4Q3/8/8/8 w - - 0 1",
+    "moves": [
+      {
+        "from": "f6",
+        "to": "g6",
+        "reply": {
+          "from": "h8",
+          "to": "g8"
+        },
+        "next": [
+          {
+            "from": "e4",
+            "to": "a8"
+          },
+          {
+            "from": "e4",
+            "to": "e8"
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "b7",
+        "reply": {
+          "from": "h8",
+          "to": "g8"
+        },
+        "next": [
+          {
+            "from": "b7",
+            "to": "g7"
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "e7",
+        "reply": {
+          "from": "h8",
+          "to": "g8"
+        },
+        "next": [
+          {
+            "from": "e7",
+            "to": "g7"
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "g4",
+        "reply": {
+          "from": "h8",
+          "to": "h7"
+        },
+        "next": [
+          {
+            "from": "g4",
+            "to": "g7"
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "g2",
+        "reply": {
+          "from": "h8",
+          "to": "h7"
+        },
+        "next": [
+          {
+            "from": "g2",
+            "to": "g7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quiet-approach",
+    "mate": 3,
+    "fen": "7k/8/8/4K3/4Q3/8/8/8 w - - 0 1",
+    "moves": [
+      {
+        "from": "e5",
+        "to": "f6",
+        "reply": {
+          "from": "h8",
+          "to": "g8"
+        },
+        "next": [
+          {
+            "from": "e4",
+            "to": "b7",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "b7",
+                "to": "g7"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "e7",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "e7",
+                "to": "g7"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "g6",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "g6",
+                "to": "g7"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "g4",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "g4",
+                "to": "g7"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "h4",
+            "reply": {
+              "from": "g8",
+              "to": "f8"
+            },
+            "next": [
+              {
+                "from": "h4",
+                "to": "h8"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "g2",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "g2",
+                "to": "g7"
+              }
+            ]
+          },
+          {
+            "from": "e4",
+            "to": "h1",
+            "reply": {
+              "from": "g8",
+              "to": "f8"
+            },
+            "next": [
+              {
+                "from": "h1",
+                "to": "a8"
+              },
+              {
+                "from": "h1",
+                "to": "h8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "b7",
+        "reply": {
+          "from": "h8",
+          "to": "g8"
+        },
+        "next": [
+          {
+            "from": "e5",
+            "to": "f6",
+            "reply": {
+              "from": "g8",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "b7",
+                "to": "g7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "g4",
+        "reply": {
+          "from": "h8",
+          "to": "h7"
+        },
+        "next": [
+          {
+            "from": "e5",
+            "to": "f6",
+            "reply": {
+              "from": "h7",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "g4",
+                "to": "g7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "from": "e4",
+        "to": "g2",
+        "reply": {
+          "from": "h8",
+          "to": "h7"
+        },
+        "next": [
+          {
+            "from": "e5",
+            "to": "f6",
+            "reply": {
+              "from": "h7",
+              "to": "h8"
+            },
+            "next": [
+              {
+                "from": "g2",
+                "to": "g7"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
