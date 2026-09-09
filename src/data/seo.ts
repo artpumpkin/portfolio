@@ -34,7 +34,7 @@ export const portfolioStructuredData = {
       url: siteUrl,
       jobTitle: "Full-Stack Developer",
       description: seoDescription,
-      sameAs: [profile.github],
+      sameAs: [profile.github, profile.linkedin],
       homeLocation: {
         "@type": "Place",
         name: profile.location,

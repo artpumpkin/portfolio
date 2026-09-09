@@ -57,7 +57,10 @@ test("search engines receive complete metadata, identity and content without Jav
       expect.objectContaining({
         "@type": "Person",
         name: "Salah-Eddine Lachkar",
-        sameAs: ["https://github.com/artpumpkin"],
+        sameAs: [
+          "https://github.com/artpumpkin",
+          "https://www.linkedin.com/in/salah-eddine-lachkar/",
+        ],
       }),
       expect.objectContaining({
         "@type": "ProfilePage",

@@ -315,6 +315,14 @@ export default function Home() {
               >
                 GitHub <CodeXml size={15} />
               </a>
+              <a
+                href={profile.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn (opens in a new tab)"
+              >
+                LinkedIn <ArrowUpRight size={15} />
+              </a>
               <a href={`mailto:${profile.email}`} aria-label="Email Salah">
                 Email me <Mail size={15} />
               </a>

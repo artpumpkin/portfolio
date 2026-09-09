@@ -2,6 +2,7 @@ export const profile = {
   name: "Salah-Eddine Lachkar",
   email: "lachkar.salah@outlook.com",
   github: "https://github.com/artpumpkin",
+  linkedin: "https://www.linkedin.com/in/salah-eddine-lachkar/",
   location: "Casablanca, Morocco",
   cv: "/Salah_Eddine_Lachkar_CV.pdf",
 };
