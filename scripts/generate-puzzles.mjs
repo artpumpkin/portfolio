@@ -1,7 +1,6 @@
 import { writeFileSync } from "node:fs";
 import { Chess } from "chess.js";
 const cache = new Map();
-let nodes = 0;
 function win(g, d) {
   const key = g.fen().split(" ").slice(0, 2).join(" ") + " " + d;
   if (cache.has(key)) return cache.get(key);
@@ -23,7 +22,6 @@ function win(g, d) {
     }
   }
   cache.set(key, result);
-  nodes++;
   return result;
 }
 
