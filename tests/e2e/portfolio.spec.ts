@@ -509,9 +509,11 @@ test("education, refreshed project copy and footer are consistent", async ({
     page.getByText("CONCEPT ILLUSTRATION", { exact: true }),
   ).toHaveCount(0);
   const education = page.locator(".education");
-  await expect(education.getByRole("heading", { level: 4 })).toHaveCount(4);
-  await expect(education).toContainText("DEUG in Computer Science");
-  await expect(education).toContainText("2014 — 2015");
+  await expect(education.getByRole("heading", { level: 4 })).toHaveCount(2);
+  await expect(education).toContainText("Master in Data Science & Big Data");
+  await expect(education).toContainText(
+    "Bachelor in Mathematics & Computer Science",
+  );
   const footer = page.getByRole("navigation", { name: "Footer navigation" });
   await expect(
     footer.getByRole("link", { name: "Selected work" }),

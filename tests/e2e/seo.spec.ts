@@ -69,7 +69,9 @@ test("search engines receive complete metadata, identity and content without Jav
     ]),
   );
   await expect(page.locator("#work")).toContainText("MRPNL");
-  await expect(page.locator(".education")).toContainText("DEUG");
+  await expect(page.locator(".education")).toContainText(
+    "Bachelor in Mathematics & Computer Science",
+  );
   await context.close();
 });
 

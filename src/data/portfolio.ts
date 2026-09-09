@@ -116,6 +116,7 @@ export const projects: Project[] = [
       "A desktop app bringing finance and health tracking together: net worth, budgets, expenses, weight, and calorie logs. Stores records in a local SQLite database, with encrypted backup and transfer.",
     role: "Creator & developer",
     tags: ["Tauri", "Next.js", "TypeScript", "SQLite"],
+    url: "https://github.com/artpumpkin/mosaic-desktop",
     visual: "mosaic",
   },
   {
@@ -165,12 +166,13 @@ export const projects: Project[] = [
   {
     id: "09",
     name: "SAFAR",
-    period: "2019 — 2021",
+    period: "2020 — 2021",
     category: "ARABIC NLP & RESEARCH",
     description:
-      "A React frontend for collaborative Arabic NLP research with EMI. English/Arabic layouts, right-to-left support, data exports, speech input, and progressive web app features.",
+      "A React and Chakra UI frontend for collaborative Arabic NLP research with EMI. English/Arabic layouts, right-to-left support, data exports, speech input, and progressive web app features, alongside research comparing Python NLP tools.",
     role: "Frontend development & master's research",
     tags: ["React", "Chakra UI", "Python", "RTL"],
+    url: "https://arabic.emi.ac.ma/safar/index.html",
     visual: "research",
   },
   {
@@ -215,27 +217,11 @@ export const education = [
   {
     period: "2019 — 2021",
     degree: "Master in Data Science & Big Data",
-    school: "Faculty of Sciences Ben M’Sik · Hassan II University, Casablanca",
-    detail:
-      "SAFAR: React frontend, English/Arabic layouts, and collaborative Arabic NLP research in partnership with EMI.",
+    school: "Hassan II University, Casablanca",
   },
   {
     period: "2018 — 2019",
     degree: "Bachelor in Mathematics & Computer Science",
-    school: "Faculty of Sciences Ben M’Sik · Casablanca",
-    detail: "Database specialization · Mention Bien.",
-  },
-  {
-    period: "2016 — 2018",
-    degree: "DEUG in Computer Science",
-    school: "Faculty of Sciences Ben M’Sik · Casablanca",
-    detail:
-      "Two-year university diploma in Mathematical Sciences and Applications / Computer Science · Mention Assez Bien.",
-  },
-  {
-    period: "2014 — 2015",
-    degree: "Baccalaureate in Mathematical Sciences (B)",
-    school: "Al Baida · Casablanca",
-    detail: "Secondary education qualification.",
+    school: "Hassan II University, Casablanca",
   },
 ];

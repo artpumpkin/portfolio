@@ -257,7 +257,6 @@ export default function Home() {
                   <span className="education-date">{e.period}</span>
                   <h4>{e.degree}</h4>
                   <p>{e.school}</p>
-                  <p>{e.detail}</p>
                 </article>
               ))}
             </div>
