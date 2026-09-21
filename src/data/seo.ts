@@ -1,9 +1,9 @@
 import { profile } from "./portfolio";
 
 export const siteUrl = "https://lachkar.me/";
-export const seoTitle = `${profile.name} — Full-Stack Developer`;
+export const seoTitle = `${profile.name} — Senior Software Engineer`;
 export const seoDescription =
-  "Salah-Eddine Lachkar, full-stack developer in Casablanca, Morocco. Explore React, Next.js and TypeScript projects, technical leadership, and remote work experience.";
+  "Senior software engineer and technical lead in Casablanca, Morocco. Full-stack products with React, Next.js and TypeScript, backed by Node.js.";
 
 export const portfolioStructuredData = {
   "@context": "https://schema.org",
@@ -32,7 +32,7 @@ export const portfolioStructuredData = {
       "@id": `${siteUrl}#person`,
       name: profile.name,
       url: siteUrl,
-      jobTitle: "Full-Stack Developer",
+      jobTitle: "Senior Software Engineer & Technical Lead",
       description: seoDescription,
       sameAs: [profile.github, profile.linkedin],
       homeLocation: {

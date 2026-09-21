@@ -5,6 +5,8 @@ TypeScript, and Three.js**.
 
 **[Explore the live website](https://lachkar.me)**
 
+This public repository preserves the chess edition. The current live website uses an interactive robotic arm; the career content and downloadable CV are kept aligned with it.
+
 ![Chess scene from the portfolio](public/chess-preview-desktop.webp)
 
 ## Highlights

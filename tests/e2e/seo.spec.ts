@@ -11,7 +11,7 @@ test("search engines receive complete metadata, identity and content without Jav
   });
   const page = await context.newPage();
   await page.goto("/");
-  await expect(page).toHaveTitle("Salah-Eddine Lachkar — Full-Stack Developer");
+  await expect(page).toHaveTitle("Salah-Eddine Lachkar — Senior Software Engineer");
   await expect(page.locator("h1")).toHaveCount(1);
   await expect(page.locator("h1")).toContainText("Salah-Eddine");
   await expect(page.locator('link[rel="canonical"]')).toHaveCount(1);

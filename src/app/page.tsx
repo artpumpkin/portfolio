@@ -56,9 +56,9 @@ export default function Home() {
               <em>Playful possibilities.</em>
             </p>
             <p className="hero-description">
-              I’m a full-stack developer who brings ideas to life through
-              considered interfaces, dependable systems, and a healthy dose of
-              curiosity.
+              I’m a senior software engineer and technical lead building
+              full-stack products with React, Next.js, and Node.js. I combine
+              hands-on engineering with team leadership.
             </p>
             <div className="hero-actions">
               <a className="button-primary" href="#work">

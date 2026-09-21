@@ -35,11 +35,11 @@ export const experiences: Experience[] = [
   },
   {
     company: "Chain Pixel Labs",
-    role: "Frontend Developer → Technical Lead",
-    period: "OCT 2021 — MAR 2023",
+    role: "Junior Software Engineer → Senior Software Engineer / Technical Lead",
+    period: "OCT 2021 — JAN 2024",
     location: "Samurai Rising & Samurai Legends",
     description:
-      "Grew from frontend development into full-stack engineering and leading a team of approximately three. Built dashboards and decentralized applications connecting APIs, wallets, and smart contracts.",
+      "Main role through March 2023, followed by occasional support through January 2024. Built dashboards and decentralized applications connecting APIs, wallets, and Solidity smart contracts, while expanding into full-stack development and leading approximately three people.",
     tags: ["React", "MERN", "Solidity", "Web3"],
   },
   {
@@ -102,8 +102,8 @@ export const projects: Project[] = [
     period: "2021 — 2023",
     category: "WEB3 APPLICATIONS",
     description:
-      "Dashboards and decentralized applications connecting APIs, wallets, and smart contracts. Progressed from frontend development to full-stack work and leading a team of approximately three.",
-    role: "Frontend developer → Technical lead · Chain Pixel Labs",
+      "Dashboards and decentralized applications connecting APIs, wallets, and smart contracts. Main development through March 2023; continued occasional support for Chain Pixel Labs through January 2024. Expanded into full-stack work and led approximately three people.",
+    role: "Senior software engineer / Technical lead · Chain Pixel Labs",
     tags: ["React", "TypeScript", "MERN", "Solidity"],
     visual: "samurai",
   },

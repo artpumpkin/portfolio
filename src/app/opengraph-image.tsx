@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-export const alt = "Salah-Eddine Lachkar — Full-Stack Developer";
+export const alt = "Salah-Eddine Lachkar — Senior Software Engineer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export default function Image() {
@@ -53,7 +53,7 @@ export default function Image() {
           justifyContent: "space-between",
         }}
       >
-        <span>Full-Stack Developer / Casablanca</span>
+        <span>Senior Software Engineer / Casablanca</span>
         <span>lachkar.me ↗</span>
       </div>
     </div>,
