@@ -7,6 +7,8 @@ TypeScript, and Three.js**.
 
 This public repository preserves the chess edition. The current live website uses an interactive robotic arm; the career content and downloadable CV are kept aligned with it.
 
+The downloadable CV is the public version: portrait, email and professional links, with no personal phone number. The recruiter version and editable source documents are maintained privately.
+
 ![Chess scene from the portfolio](public/chess-preview-desktop.webp)
 
 ## Highlights

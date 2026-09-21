@@ -17,7 +17,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "MRPNL",
-    role: "Full-Stack Engineer & Project Manager",
+    role: "Senior Software Engineer & Technical Lead",
     period: "MAY 2026 — PRESENT",
     location: "Side SaaS project · Remote",
     description:
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     category: "TRADING EDUCATION & MARKET TOOLS",
     description:
       "A trading education and market-monitoring platform, with administration, content, learning progress, and invoice workflows.",
-    role: "Full-stack engineering & project management",
+    role: "Senior Software Engineer & Technical Lead",
     tags: ["Next.js", "NestJS", "PostgreSQL"],
     url: "https://mrpnl.com",
     visual: "market",
