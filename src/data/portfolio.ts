@@ -54,7 +54,7 @@ export const experiences: Experience[] = [
   {
     company: "Independent work",
     role: "JavaScript & Web Automation Developer",
-    period: "2021",
+    period: "2019 — 2021",
     location: "Freelance",
     description:
       "Started by turning repetitive tasks into tools: an EVM token-trading bot and automated browser workflows.",
